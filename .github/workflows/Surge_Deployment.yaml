@@ -34,5 +34,5 @@ jobs:
       
       #deploy surge
     - name: Deploy Surge
-      run: surge ./ http://tahahtml1.surge.sh/ --token${{secrets.SURGE_TOKEN}}
+      run: surge ./ tahahtml1.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
   
